@@ -1,0 +1,31 @@
+{
+  "name": "angelone",
+  "version": "1.0.0",
+  "description": "MCP server that connects to Angel One API",
+  "type": "commonjs",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@modelcontextprotocol/sdk": "^1.23.0",
+    "axios": "^1.13.2",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "bot",
+    "trading",
+    "trading-software",
+    "angelone",
+    "brokerage",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC"
+}
