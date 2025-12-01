@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Misc metadata
+*.tgz
+package-lock.json
+yarn.lock
+
+# VSCode
+.vscode/
+
+# OS generated files
+*.swp
+
+# Data files or app-specific
+Data.txt
+
